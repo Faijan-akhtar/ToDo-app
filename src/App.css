@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.container{
+  max-width: 550px;
+  background-color: black;
+  margin: 0 auto;
+  padding: 10px;
+  height: 95vh;
+
+}
+h1{
+  color: white;
+  text-align: center;
+  opacity: .3;
+}
+
+
+
+input{
+  margin-top: 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.172),
+    rgba(255, 255, 255, 0.217)
+  );
+backdrop-filter: blur(10px);
+border: none;
+outline: none;
+margin-left: 21%;
+padding: 8px;
+width: 50%;
+}
+button{
+  background-color:black;
+  color: white;
+  padding: 7px;
+  margin-left: 6px;
+  background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.172),
+        rgba(255, 255, 255, 0.217)
+      );
+    backdrop-filter: blur(10px);
+    border: none;
+ 
+}
+.list{
+  
+   display: flex;
+   justify-content: space-between;
+   width: 60%;
+   color: white;
+   padding:8px ;
+   margin-top: 15px;
+   margin-left: 21%;
+   background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.172),
+    rgba(255, 255, 255, 0.217)
+  );
+backdrop-filter: blur(10px);
+}
+@media(max-width:1300px){
+    .container{
+      max-width: 100vh;
+      
+    }
+}
